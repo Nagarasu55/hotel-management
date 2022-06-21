@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hotel Grand Palace</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+    
+<body >  
+    
+	  <h1 class="logo">HOTEL GRAND PALACE</h1>
+	  <header class="header">
+        <nav class="nav" >
+       <div>
+            <ul>
+                <li class="list"><a href="index.html">Home</a></li>
+                <li class="list"><a href="explore.html">Explore </a></li>
+                <li class="list"><a href="rooms.html">Rooms</a></li>
+                <li class="list"><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+         </div>
+        </nav>
+    </header>
+    
+   <section class="imgslider">
+ 
+    <div class="slider">
+	
+	<div class="slides">
+	<input type="radio" name="radio-btn" id="radio1">
+	<input type="radio" name="radio-btn" id="radio2">
+	<input type="radio" name="radio-btn" id="radio3">
+	<input type="radio" name="radio-btn" id="radio4">
+	<input type="radio" name="radio-btn" id="radio5">
+	<input type="radio" name="radio-btn" id="radio6">
+	
+	<div class="slide first">
+	  <img src="images/sld1.jpg" alt="image1">
+	  </div>
+	<div class="slide">
+	  <img src="images/sld2.jpg" alt="image2">
+	  </div>
+	<div class="slide">
+	  <img src="images/sld3.jpg" alt="image3">
+	  </div>
+   <div class="slide">
+	  <img src="images/sld4.jpg" alt="image4">
+	  </div>
+	<div class="slide">
+	  <img src="images/sld5.jpg" alt="image5">
+	  </div>  
+	<div class="slide">
+	  <img src="images/sld6.jpg" alt="image6">
+	  </div>  
+	  
+	  <div class="navigation-auto">
+	   <div class="auto-btn1"></div>
+	   <div class="auto-btn2"></div>
+	   <div class="auto-btn3"></div>
+	   <div class="auto-btn4"></div>
+	   <div class="auto-btn5"></div>
+	   <div class="auto-btn6"></div>
+	   </div>
+	   
+	</div>
+	</div>
+	
+	<div class="navigation-manual">
+	<label for="radio1" class="manual-btn"></label>
+	<label for="radio2" class="manual-btn"></label>
+	<label for="radio3" class="manual-btn"></label>
+	<label for="radio4" class="manual-btn"></label>
+	<label for="radio5" class="manual-btn"></label>
+	<label for="radio6" class="manual-btn"></label>
+	</div>
+</div>	
+		
+	<script>
+	var counter= 1;
+	setInterval(function(){
+	document.getElementById('radio' + counter).checked=true;
+	counter++;
+	if(counter > 6){
+	
+	counter=1;
+	}	
+	},3000);
+	</script>	
+	  
+	  
+   </section>
+    
+ 
+    <section class="facilities">
+	<div class="sectionhead">
+        <h1>Facilities</h1>
+	</div>	
+		<div class="servicesection">
+         
+		 <div class="servicebox">
+              <img class="serimage" src="images/bell.png">
+                  <div>
+                        <h3 class="b">24/7 Room Service</h3>
+                        <p> Enjoy your stay with excellent and timely room service. </p>
+				  </div>
+          </div>
+        <div class="servicebox">
+              <img class="serimage" src="images/coffee.png">
+                  <div>
+                        <h3 class="b">Free Breakfast</h3>
+                        <p> Enjoy Free breakfast every morning with AP plan.</p> 
+				</div>
+       </div>
+
+
+        <div class="servicebox">
+              <img class="serimage" src="images/car-front.png">
+                 <div>
+                        <h3 class="b">Pick Up & Drop</h3>
+                        <p> No need to pay any extra charges to pickup and drop. </p>
+				</div>
+         </div>
+        <div class="servicebox">
+              <img class="serimage" src="images/spa.png">
+                <div>
+                        <h3 class="b">Free Spa</h3>
+                        <p> Relax at the inhouse Spa once every day of your stay. </p> 
+				</div>
+            </div>
+	   <div class="servicebox">
+              <img class="serimage" src="images/spa.png">
+                <div>
+                        <h3 class="b">Free Gym</h3>
+                        <p> You wont miss your daily gym work even your heldup.</p> 
+				</div>
+           </div>
+			   
+         </div>
+    </section>
+    
+    
+    <section>
+               <div class = "sectionhead">
+                    <h1>Guest Reviews</h1>
+                </div>
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p> Stayed for a day. Night ordered for Masala Dosa at Restaurant. It was late and one staff Sabari regretted for the delay & 
+						explained the reason. Next day morning also he had talked to us. Very nice of him to look after customer satisfaction.</p>
+                        <img src = "images/cus1.jpg" alt = "customer image">
+                        <h4>RAM, Bangalore</h4>
+                    </div>
+                    <!-- end of single customer -->
+					
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>Superb Place to Stay in Salem. The Lobby is spacious and the room service and all other amenities are good. 
+						Swimming pool found to be smaller than usual and water filtration was not working. </p>
+                        <img src = "images/cus2.jpg" alt = "customer image">
+                        <h4>Amitendra Nath, Mumbai</h4>
+                    </div>
+                    <!-- end of single customer -->
+					
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <p>Ambience was superb. Worth for money. Staff were friendly and polite. Exotic stay. Buffet breakfast delicious and have more variety in it.
+						Good and safe place to stay with family. My kid enjoyed well at the stay. </p>
+                        <img src = "images/cus3.jpg" alt = "customer image">
+                        <h4>Soniya, Chennai</h4>
+                    </div>
+                    <!-- end of single customer -->
+					
+					 <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Superb Service</h3>
+                        <p>Stayed here yesterday. Excellent everything! Clean place, amazing staff, great car parking space, awesome food at the restaurant 
+						and a great mountain view (we saw some peahens too!). Loved each and every bit of my stay.</p>
+                        <img src = "images/cus4.jpg" alt = "customer image">
+                        <h4>Prasanth Neel, Hydrabad</h4>
+                    </div>
+                    <!-- end of single customer -->
+					
+					<!-- single customer -->
+					 <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Wonderful stay</h3>
+                        <p>The staffs are very cordial and ready to help.
+The restaurant for breakfast is very cosy and the service boys are doing their best to get customer satisfaction. .</p>
+                        <img src = "images/cus5.jpg" alt = "customer image">
+                        <h4>Deepika , Kovai</h4>
+                    </div>
+                    <!-- end of single customer -->
+					 <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Fantastic service</h3>
+                        <p>It's the best hotel in Salem. I can witness the passion in the staff. One will become a gourmet while having a breakfast n Dinner buffet. 
+						One can have sound sleep during the stay and find it effective during business travels..</p>
+                        <img src = "images/cus6.jpg" alt = "customer image">
+                        <h4>Sathyan, Salem</h4>
+                    </div>
+                    <!-- end of single customer -->
+                </div>
+            </div>
+			 <div class = "sectionlink">
+                   <a href="#">see more reviews</a>
+                </div>
+    </section>
+        </section>
+		       
+	
+	
+	
+	
+ <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>Hotel Grand Palace is a luxury business hotel at Salem offering option for luxury business traveller stays, conferences and corporate events.</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = "#">Blog</a>
+                    <a href = "#">Rooms</a>
+                    <a href = "#">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "#">About Us</a>
+                    <a href = "#">Contact Us</a>
+                    <a href = "#">Services</a>
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            203 St.Mountain View, Fairlands, Salem-4, Tamilnadu.
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +0427-244 346 
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            hgp@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        
+    
+</body>
+</html>

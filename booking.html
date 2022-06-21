@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hotel Grand Palace</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	
+    </head>
+    
+<body>
+
+    <!-- Header -->
+  <h1 class="logo">HOTEL GRAND PALACE</h1>
+	  <header class="header">
+        <nav class="nav" >
+       <div>
+            <ul>
+                <li class="list"><a href="index.html">Home</a></li>
+                <li class="list"><a href="explore.html">Explore </a></li>
+                <li class="list"><a href="rooms.html">Rooms</a></li>
+                <li class="list"><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+         </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <section class="booking">
+    
+    <form id="myform" name="myform" method="post" onsubmit="return validation()">
+        <div class="form1">
+     <input type="text" name="name" id="name" placeholder="Name"> <br/>
+	 <p id="err1"></p>
+     <input type="num" name="phone" placeholder="mobile Number"> <br/>
+    <p id="err2"></p>	 
+    <input type="email" name="email" placeholder="E-mail"> <br/> 
+	<p id="err3"></p>
+	
+    <label  for="rooms" id="inlinelable">Rooms:</label>
+        <select name="rooms" id="rooms">
+            <option value="luxurys">Luxury Suite</option>
+           <option value="deluxs">Delux Suite</option>
+           <option value="premiers">Premier Suite</option>
+            <option value="Luxuryr">Luxury Room</option>
+           <option value="deluxs">Delux Room</option>
+          <option value="premierr">Premier Room</option>
+        </select> <br/> 
+		
+            
+    
+            
+    <div class="num1" id="handleCounter1">    
+    <label for="number1" >Number of Rooms:</label><br/>
+        <input type="number" name="number1" id="number1" value="">
+        </div>
+		<p id="err4"></p>
+    <div class="num2" id="handleCounter2">      
+        <label for="number2">Number of Guests:</label><br/>
+        <input type="number" name="number2" id="number2" value="">
+            </div>
+			<p id="err5"></p>
+
+    </div>
+        
+        <div class="vertical-line"> </div>
+        
+    <div class="form2">
+     <div class="tm-cl">
+        <label for="date1" class="arrival"> Arrival date and time:</label><br/>
+        <input type="date" name="date1" id="date1"> <br/> <br/>
+		<p id="err6"></p>
+		<label for="date2" class="departure"> Departure date and time:</label><br/><br/>
+        <input type="date" name="date2"  id="date2"> <br/><br/> <br/>
+		<p id="err7"></p>
+		<h4>*Notes:</h4><br/>
+		<h4>Any one ID proof is necessary</h4><br/>
+		<h4>Expect to follow Covid precautions</h4>
+
+      <br/><button type="submit">Book Now</button>
+    </div>
+    </div>
+	
+       </form>
+  </section>
+  
+    <script src="booking.js"></script> 
+	
+  <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>Hotel Grand Palace is a luxury business hotel at Salem offering option for luxury business traveller stays, conferences and corporate events.</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = "#">Blog</a>
+                    <a href = "#">Rooms</a>
+                    <a href = "#">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "#">About Us</a>
+                    <a href = "#">Contact Us</a>
+                    <a href = "#">Services</a>
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            203 St.Mountain View, Fairlands, Salem-4, Tamilnadu.
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +0427-244 346 
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            hgp@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+    
+    
+
+    
+    </body>
+    
+</html>
+    
